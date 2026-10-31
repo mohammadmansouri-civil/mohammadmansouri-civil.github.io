@@ -11,16 +11,18 @@
     .profile-photo {
       display: block;
       width: 100%;
-      max-width: 320px;
-      aspect-ratio: 3 / 4;
-      object-fit: cover;
-      border-radius: 10px;
+      max-width: 280px;
+      height: 320px;
+      object-fit: contain;
+      object-position: center;
+      border-radius: 8px;
       justify-self: end;
     }
     @media (max-width: 780px) {
       .profile-photo {
         justify-self: start;
-        max-width: 250px;
+        max-width: 220px;
+        height: 270px;
       }
     }
   </style>
