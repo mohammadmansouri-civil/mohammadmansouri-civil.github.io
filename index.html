@@ -17,11 +17,13 @@
       object-fit: contain;
       object-position: center;
       border-radius: 8px;
-      justify-self: end;
+      margin: 16px 0;
+    }
+    .hero-grid {
+      grid-template-columns: 1fr;
     }
     @media (max-width: 780px) {
       .profile-photo {
-        justify-self: start;
         max-width: 180px;
       }
     }
@@ -50,6 +52,13 @@
       <div class="container hero-grid">
         <div>
           <h1>Mohammad Mansouri</h1>
+          <img
+            class="profile-photo"
+            src="assets/mohammad-mansouri-portrait.png"
+            alt="Portrait of Mohammad Mansouri"
+            width="500"
+            height="667"
+          >
           <div class="hero-title">Civil Engineer | Structural Design | Site Supervision | Construction Quality Control</div>
           <p class="lead">I am a Civil Engineer with experience in structural analysis and design, construction site supervision, and quality control across building, industrial, and mining-related projects.</p>
           <p class="lead">My professional background combines the design of reinforced-concrete and steel structures with hands-on experience in construction execution, concrete works, reinforcement inspection, material testing, and technical coordination. I aim to bring together sound engineering principles, practical construction knowledge, and attention to quality and technical requirements throughout a project.</p>
@@ -58,14 +67,6 @@
             <a class="button secondary" href="resume.html">View Resume</a>
           </div>
         </div>
-
-        <img
-          class="profile-photo"
-          src="assets/mohammad-mansouri-portrait.png"
-          alt="Portrait of Mohammad Mansouri"
-          width="500"
-          height="667"
-        >
       </div>
     </section>
 
