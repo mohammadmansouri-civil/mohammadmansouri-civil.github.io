@@ -50,4 +50,13 @@ p{margin:0 0 1rem}.muted{color:var(--muted)}
 .nav-toggle:checked~.nav-links{display:flex}
 .nav-links a{display:block;padding:.8rem 1rem}
 .lang-switch{margin:.5rem 1rem;justify-content:center}
+  .hero {
+  background: linear-gradient(135deg, #12263f, #1b3a5f) !important;
+  color: #fff !important;
+}
+
+.hero h1,
+.hero h2 {
+  color: #fff !important;
+}
 }
